@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Jonk</title>
+</head>
+
+<body>
+    <!-- Background video -->
+    <video src="res/bg.mp4#t=5,44" autoplay="" loop="" muted>
+        Your browser doesn't support webm files
+      </video>
+
+    <!-- navbar -->
+    <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="youtube.html">Youtube</a></li>
+        </div>
+    </ul>
+
+    <div class="container c_hide" id="main">
+        <h1 style="color: #ffffff">Welcome to my website</h1>
+        <h4 style="color: #ffffff"> So i did this website to just fuck around with code.<br>
+        First i want to say that this website is not around to be done.<br>
+        If you want to see some nice videos click <a href="">here.</a> On this website I will upload school projects.<br>
+        One of the projects I'm working on now is of course the website but I'm also working on a German school project.<br><br>
+        If you have some suggestions you can go to contacts and mail me.</h4>
+    </div>
+    <script src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Load 'main' div after 0.4 seconds.  -->
+    <script>
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('.c_hide').fadeIn();
+            }, 400);
+        });
+    </script>
+</body>
+
+</html>
